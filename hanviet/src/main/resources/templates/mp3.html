@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<button id="btn_play">재생/정지</button>
+<label for="seekbar_volume">볼륨 조정</label>
+<input type="range" name="seekbar_volume" id="seekbar_volume" min="0" max="100" value="50">
+
+</body>
+
+<script>
+const audio = new Audio("./output2.mp3");
+
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+const mediaElementSource = audioContext.createMediaElementSource(audio);
+const gainNode = audioContext.createGain();
+mediaElementSource.connect(gainNode).connect(audioContext.destination);
+document.getElementById("btn_play").onclick = (event)=>{ if(audio.paused){ // audioContext 작동 처리 // 크롬에서는 사용자의 제스처가 있어야만 audioContext를 작동시킬 수 있다.) audioContext.resume(); // 재생 시작: 재생 자체는 Audio객체를 통해 수행해야 한다. // MediaElementAudioSourceNode는 start()메서드가 없다. audio.play(); }else{ // 재생 멈춤 audio.pause(); } } // 볼륨 조절 이벤트 처리 document.getElementById("seekbar_volume").oninput = (event)=>{ // GainNode를 통해 음원의 gain값(==볼륨)을 조정할 수 있다. gainNode.gain.value = parseInt(event.currentTarget.value)/100; // 0~1사이로 변환 }
+
+</script>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/layout1}">
+<th:block layout:fragment="script">
+<script th:inline="javascript">
+   function execTranslate() {
+   var textSource = $.trim($("#textSource").val());
+   if(textSource){
+            $.ajax({
+                url      : "/config/PapagoAPI",
+                type     : "POST",
+                data     : {'SOURCE':text},
+                dataType : "json",
+                cache   : false,
+                success  : function(result, status){
+                    alert("주문이 취소 되었습니다.");
+                    location.href='/orders/' + [[${page}]];
+                },
+                error : function(jqXHR, status, error){
+                    if(jqXHR.status == '401'){
+                        alert('로그인 후 이용해주세요');
+                        location.href='/members/login';
+                    } else{
+                        alert(jqXHR.responseText);
+                    }
+                }
+            });
+        }
+</script>
+</th:block>
+<div>
+    원본언어
+</div>
+<div>
+    <textarea id="textSource" style="with:100%; height:370px"></textarea>
+</div>
+<div>
+    <button style="font:size25px;" onclick="javascript:execTranslate();">번역하기</button>
+</div>
+<div>
+    대상언어
+</div>
+<div>
+    <textarea id="textDest" style="width:100%; height:370px"></textarea>
+</div>
+
+</html>

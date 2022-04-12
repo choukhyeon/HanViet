@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "premium-griffin-345007",
+  "private_key_id": "ca520cc907a1a06603614b5c2a8c65355c6e0220",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCPlCzMvZ86QLNU\nvIKZe7YWQo3TBtIH5ITt7uUtKU4sgZp9rqhx/YnRqtnsce2yWTc3te2cMV+ZWFb/\nSVFMH5zD1huFDJgeoyT/3xlwajD/WgIHdV2zspMoCXjWDgqg7SzK4UrrwZrr0Q6Z\nI2/FhC85IrAEppAFDfAYRm+IIG6rBZ0I5hCOqyC0ODQKq3fVR7KHfUj8uYyLEznR\nLloe9fdUBpGxTfOXnBh2Q7iWJOJa9sQXGNDsMTIhqocfKnEIHjxKemvORqghcueL\ntcxQ7DMz71agJzpZmVk5/qbq4aZJBjK5xgur7CT3Hbl1MEBeM+0PiBcETqmJcWjQ\nWwxk7tFbAgMBAAECggEAGfvqeaktiljQO5scFZPOecvUp+a5lwUTy42q+xfZFnPk\nFi/IO0zzprbBVqmtp1O/Cv2JQXWsA+/5Wp0Vse2crNJwS41icFT9KrNhAretI2FS\nMbBbY1yDhkDklfSXltUlgJfyO6VfmKLOfgdsQHYyJ6hv63+LW+bQV0xT/fJEpP2L\nK6fp0z/Aa5xlX49d+vg0u+8EUKZt2GmREMuT2ezC7WTvRqKe0i2yr6Dhwu64OZv2\nK6OIwflGFj7jKfkcL/npYXcDxI1uvUI+cXt/wqxGDQUOKIUNzgMEgBNuldNwBq61\n6h58HptztRXPqH7ujQD8SLGlj7WlQZPWC3HniZQ8hQKBgQDD13J9Dgq/9R+WizlG\nsjzpm69jnoFKPspHvWn7Ri5BDrLV8rk4HA509zYGH+qTjSdwTWOs0r5bjMocqICU\n8/x3RmiE/H61L55WlxtkMSZ1AC/C+NuPPmKape215Ou2VCjNsKv1K+DSttH6EUL2\nsg6BAyU7G3VXS6uVTRDJDpqmxwKBgQC7ruW2z470rVYWZyiZfU2uSz6SOM8ZwWGj\ncuLCCYPSac60umKVESc+8ydaNTSjeMvYoELrXXL3ZmU/Tw+w0mqhXIN+mTRT+Pbb\n93bc7zJDhY+n6KBj7kpBoAk+RIsyE8d2hcDMq1Rz5nN32n9/nOVoYs+d1hv8Jc/v\nkPnBENqczQKBgF6k6Dd3acqK89EVR4Da8oUTMBe8qk7vOWKiL2235PKb3+F1g/2R\n0YrFTd533i2gscacH+eNkWE9EQ/4fut9Xi1mYWyjebimYqcGL76j4in5BRv8mF8J\njy2dstuM3j0nPvDoyLGbmvM6Vw+699mxA0Fl+8As7PBbKXjl3Y7M+ABRAoGBAI/P\nZxNaHVccjo9iAjkCS4iW/V37i61XgWJFwL0fn1OWYZ4YBzvjxee1V10G0cvE3qWh\nv0Ur+NDbNA97nDFIOg5knhleeTsy1K0eBIUr/56/c6EcXfHUgC+i2hJNYT9A6qDF\nwkLRsUeRuL6IvRNifGIs/JsbmZvuuVL/CnDGYkytAoGAe3i8Z517/7TvS07PYfuK\nrtmdx+BEk4btWmGBXR910ncDgiMBsUEDlMoGRV6TumuHLhPVktLHX5Ky5yBn0t8H\nLVUfLXh0ZIuDNaa5PBYAiwX84fWCVMqQnD6mHAXEzEgNOXb3rA+uw73W6yh1tMyd\nUtx9BS4nO44wcM1M4KbWPQ8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hanviet@premium-griffin-345007.iam.gserviceaccount.com",
+  "client_id": "108284700267148365293",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hanviet%40premium-griffin-345007.iam.gserviceaccount.com"
+}
