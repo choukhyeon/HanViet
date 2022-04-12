@@ -1,9 +1,9 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.dto.ItemFormDto;
-import com.shop.dto.MainItemDto;
-import com.shop.entity.Item;
-import com.shop.entity.Store;
+import com.hanviet.dto.ItemFormDto;
+import com.hanviet.dto.MainItemDto;
+import com.hanviet.entity.Item;
+import com.hanviet.entity.Store;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

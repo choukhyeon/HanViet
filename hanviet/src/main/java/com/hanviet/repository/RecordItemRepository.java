@@ -1,6 +1,6 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.entity.RecordItem;
+import com.hanviet.entity.RecordItem;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RecordItemRepository extends JpaRepository<RecordItem, Long> {

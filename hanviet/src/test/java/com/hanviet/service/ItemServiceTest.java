@@ -1,11 +1,11 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.constant.ItemSellStatus;
-import com.shop.dto.ItemFormDto;
-import com.shop.entity.Item;
-import com.shop.entity.ItemImg;
-import com.shop.repository.ItemImgRepository;
-import com.shop.repository.ItemRepository;
+import com.hanviet.constant.ItemSellStatus;
+import com.hanviet.dto.ItemFormDto;
+import com.hanviet.entity.Item;
+import com.hanviet.entity.ItemImg;
+import com.hanviet.repository.ItemImgRepository;
+import com.hanviet.repository.ItemRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +39,7 @@ class ItemServiceTest {
         List<MultipartFile> multipartFileList = new ArrayList<>();
 
         for(int i=0; i<5; i++){
-            String path = "D:/shop/item/";
+            String path = "D:/hanviet/item/";
             String imageName= "image"+i+".jpg";
             MockMultipartFile multipartFile = new MockMultipartFile(path, imageName,"image/jpg", new byte[]{1,2,3,4});
             multipartFileList.add(multipartFile);

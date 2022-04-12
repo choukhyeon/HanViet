@@ -1,7 +1,7 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
-import com.shop.constant.Category;
-import com.shop.constant.Location;
+import com.hanviet.constant.Category;
+import com.hanviet.constant.Location;
 import lombok.Getter;
 import lombok.Setter;
 

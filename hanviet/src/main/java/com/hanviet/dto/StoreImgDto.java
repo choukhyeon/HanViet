@@ -1,6 +1,6 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
-import com.shop.entity.StoreImg;
+import com.hanviet.entity.StoreImg;
 import lombok.Getter;
 import lombok.Setter;
 import org.modelmapper.ModelMapper;

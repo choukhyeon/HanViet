@@ -1,14 +1,14 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
 import com.querydsl.core.QueryResults;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.shop.constant.Category;
-import com.shop.constant.Location;
-import com.shop.dto.MainStoreDto;
-import com.shop.dto.QMainStoreDto;
-import com.shop.dto.StoreSearchDto;
-import com.shop.entity.*;
+import com.hanviet.constant.Category;
+import com.hanviet.constant.Location;
+import com.hanviet.dto.MainStoreDto;
+import com.hanviet.dto.QMainStoreDto;
+import com.hanviet.dto.StoreSearchDto;
+import com.hanviet.entity.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;

@@ -1,7 +1,7 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.dto.BoardSearchDto;
-import com.shop.entity.Board;
+import com.hanviet.dto.BoardSearchDto;
+import com.hanviet.entity.Board;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

@@ -1,6 +1,6 @@
-package com.shop.config;
+package com.hanviet.config;
 
-import com.shop.service.MemberService;
+import com.hanviet.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

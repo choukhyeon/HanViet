@@ -1,8 +1,8 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
-import com.shop.constant.Category;
-import com.shop.constant.Location;
-import com.shop.dto.BoardFormDto;
+import com.hanviet.constant.Category;
+import com.hanviet.constant.Location;
+import com.hanviet.dto.BoardFormDto;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

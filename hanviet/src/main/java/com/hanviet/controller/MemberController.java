@@ -1,9 +1,9 @@
-package com.shop.controller;
+package com.hanviet.controller;
 
 
-import com.shop.dto.MemberFormDto;
-import com.shop.entity.Member;
-import com.shop.service.MemberService;
+import com.hanviet.dto.MemberFormDto;
+import com.hanviet.entity.Member;
+import com.hanviet.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Controller;

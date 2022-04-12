@@ -1,6 +1,6 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.entity.ItemImg;
+import com.hanviet.entity.ItemImg;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

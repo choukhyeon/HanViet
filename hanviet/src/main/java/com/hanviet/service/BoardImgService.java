@@ -1,7 +1,7 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.entity.BoardImg;
-import com.shop.repository.BoardImgRepository;
+import com.hanviet.entity.BoardImg;
+import com.hanviet.repository.BoardImgRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

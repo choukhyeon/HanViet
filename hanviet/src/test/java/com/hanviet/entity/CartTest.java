@@ -1,8 +1,8 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
-import com.shop.dto.MemberFormDto;
-import com.shop.repository.CartRepository;
-import com.shop.repository.MemberRepository;
+import com.hanviet.dto.MemberFormDto;
+import com.hanviet.repository.CartRepository;
+import com.hanviet.repository.MemberRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

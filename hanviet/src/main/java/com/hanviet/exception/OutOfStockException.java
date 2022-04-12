@@ -1,4 +1,4 @@
-package com.shop.exception;
+package com.hanviet.exception;
 
 public class OutOfStockException extends RuntimeException{
 

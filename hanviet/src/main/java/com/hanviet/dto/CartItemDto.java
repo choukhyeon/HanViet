@@ -1,4 +1,4 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
 
 import lombok.Getter;

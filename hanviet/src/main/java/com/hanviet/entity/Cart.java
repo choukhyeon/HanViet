@@ -1,4 +1,4 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
 import lombok.Getter;
 import lombok.Setter;

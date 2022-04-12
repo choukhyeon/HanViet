@@ -1,4 +1,4 @@
-package com.shop.constant;
+package com.hanviet.constant;
 
 public enum Role {
     USER,ADMIN

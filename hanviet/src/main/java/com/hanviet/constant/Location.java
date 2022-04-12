@@ -1,4 +1,4 @@
-package com.shop.constant;
+package com.hanviet.constant;
 
 public enum Location {
     HANOI, BACNHIN,HAIPHONG,HALONG,NAMDINH,NINHBINH,LAOCAI,HUE,DANANG,HOIAN,NHATRANG,DALAT,VUNGTAU,PHUQUOC ,HOCHIMIN

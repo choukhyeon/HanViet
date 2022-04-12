@@ -1,6 +1,6 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
-import com.shop.entity.Record;
+import com.hanviet.entity.Record;
 import lombok.Getter;
 import lombok.Setter;
 

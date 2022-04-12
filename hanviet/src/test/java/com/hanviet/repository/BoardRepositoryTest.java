@@ -1,12 +1,12 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.shop.constant.Location;
-import com.shop.constant.Category;
-import com.shop.entity.Board;
-import com.shop.entity.QBoard;
+import com.hanviet.constant.Location;
+import com.hanviet.constant.Category;
+import com.hanviet.entity.Board;
+import com.hanviet.entity.QBoard;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,10 +22,10 @@ import javax.persistence.PersistenceContext;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import static com.shop.constant.Location.HANOI;
-import static com.shop.constant.Category.HOTEL;
-import static com.shop.constant.Category.MASSAGE;
-import static com.shop.constant.Location.HANOI;
+import static com.hanviet.constant.Location.HANOI;
+import static com.hanviet.constant.Category.HOTEL;
+import static com.hanviet.constant.Category.MASSAGE;
+import static com.hanviet.constant.Location.HANOI;
 import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest

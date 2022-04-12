@@ -1,14 +1,14 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.jpa.impl.JPAQuery;
 import com.querydsl.jpa.impl.JPAQueryFactory;
-import com.shop.constant.Category;
-import com.shop.constant.ItemSellStatus;
-import com.shop.constant.Location;
-import com.shop.entity.Item;
-import com.shop.entity.QItem;
-import com.shop.entity.Store;
+import com.hanviet.constant.Category;
+import com.hanviet.constant.ItemSellStatus;
+import com.hanviet.constant.Location;
+import com.hanviet.entity.Item;
+import com.hanviet.entity.QItem;
+import com.hanviet.entity.Store;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

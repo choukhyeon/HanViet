@@ -1,9 +1,9 @@
-package com.shop.controller;
+package com.hanviet.controller;
 
-import com.shop.dto.BoardFormDto;
-import com.shop.dto.BoardSearchDto;
-import com.shop.entity.Board;
-import com.shop.service.BoardService;
+import com.hanviet.dto.BoardFormDto;
+import com.hanviet.dto.BoardSearchDto;
+import com.hanviet.entity.Board;
+import com.hanviet.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

@@ -1,7 +1,7 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
 
-import com.shop.constant.OrderStatus;
+import com.hanviet.constant.OrderStatus;
 import lombok.Getter;
 import lombok.Setter;
 

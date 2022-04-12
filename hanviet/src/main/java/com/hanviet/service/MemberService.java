@@ -1,7 +1,7 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.entity.Member;
-import com.shop.repository.MemberRepository;
+import com.hanviet.entity.Member;
+import com.hanviet.repository.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

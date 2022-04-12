@@ -1,6 +1,6 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.entity.Record;
+import com.hanviet.entity.Record;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.data.domain.Pageable;

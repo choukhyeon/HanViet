@@ -1,8 +1,8 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
-import com.shop.constant.ItemSellStatus;
-import com.shop.dto.ItemFormDto;
-import com.shop.exception.OutOfStockException;
+import com.hanviet.constant.ItemSellStatus;
+import com.hanviet.dto.ItemFormDto;
+import com.hanviet.exception.OutOfStockException;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

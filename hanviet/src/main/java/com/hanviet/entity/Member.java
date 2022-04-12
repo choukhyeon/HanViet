@@ -1,7 +1,7 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
-import com.shop.constant.Role;
-import com.shop.dto.MemberFormDto;
+import com.hanviet.constant.Role;
+import com.hanviet.dto.MemberFormDto;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

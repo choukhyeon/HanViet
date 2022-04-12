@@ -1,8 +1,8 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.constant.Location;
-import com.shop.constant.Category;
-import com.shop.entity.Board;
+import com.hanviet.constant.Location;
+import com.hanviet.constant.Category;
+import com.hanviet.entity.Board;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 

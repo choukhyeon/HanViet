@@ -1,10 +1,10 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.dto.*;
-import com.shop.entity.Store;
-import com.shop.entity.StoreImg;
-import com.shop.repository.StoreImgRepository;
-import com.shop.repository.StoreRepository;
+import com.hanviet.dto.*;
+import com.hanviet.entity.Store;
+import com.hanviet.entity.StoreImg;
+import com.hanviet.repository.StoreImgRepository;
+import com.hanviet.repository.StoreRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

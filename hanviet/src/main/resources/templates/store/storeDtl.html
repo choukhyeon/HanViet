@@ -90,55 +90,55 @@
         </div>
 
         <div class="wd50">
-            <span th:if="${store.storeOpenStatus == T(com.shop.constant.OpenStatus).OPEN}" class="badge btn-danger mgb-15" >
+            <span th:if="${store.storeOpenStatus == T(com.hanviet.constant.OpenStatus).OPEN}" class="badge btn-danger mgb-15" >
                 영업중
             </span>
-            <span th:unless="${store.storeOpenStatus == T(com.shop.constant.OpenStatus).OPEN}" class="badge btn-danger mgb-15" >
+            <span th:unless="${store.storeOpenStatus == T(com.hanviet.constant.OpenStatus).OPEN}" class="badge btn-danger mgb-15" >
                 휴무
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).HANOI}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).HANOI}" class="badge badge-primary mgb-15">
                 하노이
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).BACNHIN}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).BACNHIN}" class="badge badge-primary mgb-15">
                 박닌
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).HAIPHONG}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).HAIPHONG}" class="badge badge-primary mgb-15">
                 하이퐁
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).HALONG}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).HALONG}" class="badge badge-primary mgb-15">
                 하롱
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).NAMDINH}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).NAMDINH}" class="badge badge-primary mgb-15">
                 남딘
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).NINHBINH}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).NINHBINH}" class="badge badge-primary mgb-15">
                 닌빈
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).LAOCAI}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).LAOCAI}" class="badge badge-primary mgb-15">
                 라까오(사파)
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).HUE}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).HUE}" class="badge badge-primary mgb-15">
                 후에
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).DANANG}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).DANANG}" class="badge badge-primary mgb-15">
                 다낭
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).HOIAN}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).HOIAN}" class="badge badge-primary mgb-15">
                 호이안
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).NHATRANG}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).NHATRANG}" class="badge badge-primary mgb-15">
                 나트랑
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).DALAT}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).DALAT}" class="badge badge-primary mgb-15">
                 달랏
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).VUNGTAU}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).VUNGTAU}" class="badge badge-primary mgb-15">
                 붕따우
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).PHUQUOC}" class="badge badge-primary mgb-15">
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).PHUQUOC}" class="badge badge-primary mgb-15">
                 푸꾸옥
             </span>
-            <span th:if="${store.storeLocation == T(com.shop.constant.Location).HOCHIMIN}" class="badge btn-danger mgb-15" >
+            <span th:if="${store.storeLocation == T(com.hanviet.constant.Location).HOCHIMIN}" class="badge btn-danger mgb-15" >
                 호치민
             </span>
 
@@ -153,11 +153,11 @@
             </div>
             <hr class="my-4">
 
-            <div th:if="${store.storeOpenStatus == T(com.shop.constant.OpenStatus).OPEN}" class="text-right">
+            <div th:if="${store.storeOpenStatus == T(com.hanviet.constant.OpenStatus).OPEN}" class="text-right">
                 <a class="btn btn-light border border-primary btn-lg" href="/itemMenu">메뉴보기</a>
             </div>
 
-            <div th:unless="${store.storeOpenStatus == T(com.shop.constant.OpenStatus).OPEN}" class="text-right">
+            <div th:unless="${store.storeOpenStatus == T(com.hanviet.constant.OpenStatus).OPEN}" class="text-right">
             </div>
         </div>
     </div>

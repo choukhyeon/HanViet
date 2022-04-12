@@ -1,11 +1,11 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.constant.Location;
-import com.shop.dto.BoardFormDto;
-import com.shop.entity.Board;
-import com.shop.entity.BoardImg;
-import com.shop.repository.BoardImgRepository;
-import com.shop.repository.BoardRepository;
+import com.hanviet.constant.Location;
+import com.hanviet.dto.BoardFormDto;
+import com.hanviet.entity.Board;
+import com.hanviet.entity.BoardImg;
+import com.hanviet.repository.BoardImgRepository;
+import com.hanviet.repository.BoardRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,7 +40,7 @@ class BoardServiceTest {
         List<MultipartFile> multipartFileList = new ArrayList<>();
 
         for (int i=0;i<5;i++){
-            String path = "D:/shop/board/";
+            String path = "D:/hanviet/board/";
             String imageName = "image"+i+".jpg";
             MockMultipartFile multipartFile = new MockMultipartFile(path,imageName,"imge/jpg",new byte[]{1,2,3,4});
             multipartFileList.add(multipartFile);

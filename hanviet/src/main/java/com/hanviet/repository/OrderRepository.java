@@ -1,6 +1,6 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.entity.Order;
+import com.hanviet.entity.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import org.springframework.data.domain.Pageable;

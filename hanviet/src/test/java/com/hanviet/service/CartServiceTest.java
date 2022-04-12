@@ -1,13 +1,13 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.constant.ItemSellStatus;
-import com.shop.dto.CartItemDto;
-import com.shop.entity.CartItem;
-import com.shop.entity.Item;
-import com.shop.entity.Member;
-import com.shop.repository.CartItemRepository;
-import com.shop.repository.ItemRepository;
-import com.shop.repository.MemberRepository;
+import com.hanviet.constant.ItemSellStatus;
+import com.hanviet.dto.CartItemDto;
+import com.hanviet.entity.CartItem;
+import com.hanviet.entity.Item;
+import com.hanviet.entity.Member;
+import com.hanviet.repository.CartItemRepository;
+import com.hanviet.repository.ItemRepository;
+import com.hanviet.repository.MemberRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

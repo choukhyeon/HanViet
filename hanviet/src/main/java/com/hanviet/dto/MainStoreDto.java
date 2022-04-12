@@ -1,10 +1,10 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
 
 import com.querydsl.core.annotations.QueryProjection;
-import com.shop.constant.Category;
-import com.shop.constant.Location;
-import com.shop.constant.OpenStatus;
+import com.hanviet.constant.Category;
+import com.hanviet.constant.Location;
+import com.hanviet.constant.OpenStatus;
 import lombok.Getter;
 import lombok.Setter;
 

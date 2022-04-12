@@ -1,12 +1,12 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.dto.BoardFormDto;
-import com.shop.dto.BoardImgDto;
-import com.shop.dto.BoardSearchDto;
-import com.shop.entity.Board;
-import com.shop.entity.BoardImg;
-import com.shop.repository.BoardImgRepository;
-import com.shop.repository.BoardRepository;
+import com.hanviet.dto.BoardFormDto;
+import com.hanviet.dto.BoardImgDto;
+import com.hanviet.dto.BoardSearchDto;
+import com.hanviet.entity.Board;
+import com.hanviet.entity.BoardImg;
+import com.hanviet.repository.BoardImgRepository;
+import com.hanviet.repository.BoardRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

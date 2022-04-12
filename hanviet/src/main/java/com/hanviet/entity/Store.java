@@ -1,10 +1,10 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
 
-import com.shop.constant.Location;
-import com.shop.constant.Category;
-import com.shop.constant.OpenStatus;
-import com.shop.dto.StoreFormDto;
+import com.hanviet.constant.Location;
+import com.hanviet.constant.Category;
+import com.hanviet.constant.OpenStatus;
+import com.hanviet.dto.StoreFormDto;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;

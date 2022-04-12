@@ -1,7 +1,7 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
-import com.shop.constant.OrderStatus;
-import com.shop.entity.Order;
+import com.hanviet.constant.OrderStatus;
+import com.hanviet.entity.Order;
 import lombok.Getter;
 import lombok.Setter;
 

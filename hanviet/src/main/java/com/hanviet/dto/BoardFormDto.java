@@ -1,8 +1,8 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
-import com.shop.constant.Category;
-import com.shop.constant.Location;
-import com.shop.entity.Board;
+import com.hanviet.constant.Category;
+import com.hanviet.constant.Location;
+import com.hanviet.entity.Board;
 import lombok.Getter;
 import lombok.Setter;
 import org.modelmapper.ModelMapper;

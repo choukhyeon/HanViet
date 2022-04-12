@@ -1,11 +1,11 @@
-package com.shop.entity;
+package com.hanviet.entity;
 
 
-import com.shop.constant.ItemSellStatus;
-import com.shop.repository.ItemRepository;
-import com.shop.repository.MemberRepository;
-import com.shop.repository.OrderItemRepository;
-import com.shop.repository.OrderRepository;
+import com.hanviet.constant.ItemSellStatus;
+import com.hanviet.repository.ItemRepository;
+import com.hanviet.repository.MemberRepository;
+import com.hanviet.repository.OrderItemRepository;
+import com.hanviet.repository.OrderRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

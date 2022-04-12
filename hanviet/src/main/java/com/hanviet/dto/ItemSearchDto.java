@@ -1,6 +1,6 @@
-package com.shop.dto;
+package com.hanviet.dto;
 
-import com.shop.constant.ItemSellStatus;
+import com.hanviet.constant.ItemSellStatus;
 import lombok.Getter;
 import lombok.Setter;
 

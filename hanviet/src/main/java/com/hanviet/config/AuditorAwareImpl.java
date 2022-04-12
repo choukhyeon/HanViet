@@ -1,4 +1,4 @@
-package com.shop.config;
+package com.hanviet.config;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.security.core.Authentication;

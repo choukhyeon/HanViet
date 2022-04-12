@@ -1,7 +1,7 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.entity.ItemImg;
-import com.shop.repository.ItemImgRepository;
+import com.hanviet.entity.ItemImg;
+import com.hanviet.repository.ItemImgRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

@@ -1,8 +1,8 @@
-package com.shop.controller;
+package com.hanviet.controller;
 
-import com.shop.dto.MainStoreDto;
-import com.shop.dto.StoreSearchDto;
-import com.shop.service.StoreService;
+import com.hanviet.dto.MainStoreDto;
+import com.hanviet.dto.StoreSearchDto;
+import com.hanviet.service.StoreService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

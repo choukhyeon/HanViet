@@ -1,6 +1,6 @@
-package com.shop.controller;
+package com.hanviet.controller;
 
-import com.shop.dto.ItemDto;
+import com.hanviet.dto.ItemDto;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

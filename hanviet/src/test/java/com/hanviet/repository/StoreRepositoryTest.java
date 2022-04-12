@@ -1,10 +1,10 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
 import com.querydsl.core.BooleanBuilder;
-import com.shop.constant.Location;
-import com.shop.constant.Category;
-import com.shop.entity.QStore;
-import com.shop.entity.Store;
+import com.hanviet.constant.Location;
+import com.hanviet.constant.Category;
+import com.hanviet.entity.QStore;
+import com.hanviet.entity.Store;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

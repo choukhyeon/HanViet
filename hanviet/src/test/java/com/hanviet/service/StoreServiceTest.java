@@ -1,12 +1,12 @@
-package com.shop.service;
+package com.hanviet.service;
 
-import com.shop.constant.Location;
-import com.shop.constant.Category;
-import com.shop.dto.StoreFormDto;
-import com.shop.entity.Store;
-import com.shop.entity.StoreImg;
-import com.shop.repository.StoreImgRepository;
-import com.shop.repository.StoreRepository;
+import com.hanviet.constant.Location;
+import com.hanviet.constant.Category;
+import com.hanviet.dto.StoreFormDto;
+import com.hanviet.entity.Store;
+import com.hanviet.entity.StoreImg;
+import com.hanviet.repository.StoreImgRepository;
+import com.hanviet.repository.StoreRepository;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +39,7 @@ public class StoreServiceTest {
         List<MultipartFile> multipartFileList = new ArrayList<>();
 
         for (int i=0;i<5;i++){
-            String path = "D:/shop/store/";
+            String path = "D:/hanviet/store/";
             String imageName = "image"+".jpg";
             MockMultipartFile multipartFile = new MockMultipartFile(path, imageName,"image/jpg", new byte[]{1,2,3,4});
             multipartFileList.add(multipartFile);

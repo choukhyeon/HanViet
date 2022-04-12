@@ -1,4 +1,4 @@
-package com.shop.controller;
+package com.hanviet.controller;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

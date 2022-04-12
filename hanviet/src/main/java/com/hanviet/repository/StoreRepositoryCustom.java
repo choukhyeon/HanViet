@@ -1,8 +1,8 @@
-package com.shop.repository;
+package com.hanviet.repository;
 
-import com.shop.dto.MainStoreDto;
-import com.shop.dto.StoreSearchDto;
-import com.shop.entity.Store;
+import com.hanviet.dto.MainStoreDto;
+import com.hanviet.dto.StoreSearchDto;
+import com.hanviet.entity.Store;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 

@@ -1,10 +1,10 @@
-package com.shop.controller;
+package com.hanviet.controller;
 
 
-import com.shop.dto.*;
-import com.shop.entity.Item;
-import com.shop.service.ItemService;
-import com.shop.service.StoreService;
+import com.hanviet.dto.*;
+import com.hanviet.entity.Item;
+import com.hanviet.service.ItemService;
+import com.hanviet.service.StoreService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
