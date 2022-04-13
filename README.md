@@ -1,9 +1,8 @@
-# HanViet
-###개발 환경
+# 개발 환경
 -Backend:java1.8, SpringBoot-JPA
 -Frontend:HTML,CSS,JS
 -Database:MYSQL
-
+# HanViet
 베트남 관광을 위한 홈페이지 어플 코로나 전 베트남에 한국인 관광객 수가 점차 증가하여 연 300만명이 넘었습니다. 
 
 코로나가 풀리면 해외여행을 계획하는 한국인들이 엄청 많을 것으로 예측됩니다. 
@@ -30,7 +29,7 @@
 - 제대로된 베트남어 번역기
 
 
-#### 습득 기술
+# 습득 기술
 - springboot
 - jpa
 - Security
